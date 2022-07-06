@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Assignment8</title>
+   <script src="Assignment8.js" type="text/javascript" defer></script>
+   <style>
+   table, th, td{
+   	border: 1px solid black;
+    border-collapse: collapse;
+	}
+	</style>
+</head>
+<body>
+	<h1>Tea ordering system</h1>
+
+	<label>Tea:</label>
+	<select id = "Tea">
+		<option value="Black">Black</option>
+		<option value="Green">Green</option>
+		<option value="Red">Red</option>
+	</select>
+	<br>
+	<br>
+	<fieldset>
+		<legend>Select your toppings</legend>
+		<label>Toppings:</label>
+		<select id ="Toppings">
+		<option value="Grass Jelly">Grass Jelly</option>
+		<option value="Coconut">Coconut</option>
+		<option value="Pearls">Pearls</option>
+		<option value="Mango Stars">Mango Stars</option>
+	</select>
+	<br>
+	<input type="button" value="Add Toppings" onclick="addToppings()">
+	<input type="button" value="Remove Toppings" onclick="removeToppings()">
+	
+	<br>
+	<br>
+	Current Toppings
+	<p id="displayToppings"></p>
+
+	</fieldset>
+	<br>
+	<label>Would you like Milk Tea?<label>
+	<select id = "MilkTea">
+		<option value="Yes">Yes</option>
+		<option value="No">No</option>
+	</select>
+	<br>
+	<h1>Your Order</h1>
+	<input type="button" value="Add Drink" onclick="addDrink()">
+	<input type="button" value="Remove Drink" onclick="removeDrink()">
+	<input type="button" value="Reset Order" onclick="resetOrder()">
+	<br>
+	<br>
+
+	<table id= "displayDrinks">		
+	</table>
+
+</body>
+</body>
+</html>
