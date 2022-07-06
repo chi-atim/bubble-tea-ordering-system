@@ -6,7 +6,7 @@
 This is an ordering system that will allow a person to order multiple drinks, and then tell the user the total price for their order.  
   
   
- - Add Drink button adds a drink to the customer order.
- - Remove Drink button removes the last drink from the customer order array.
- - Reset Drink button removes all drinks from the customer order.
+ - **Add Drink** button adds a drink to the customer order.
+ - **Remove Drink** button removes the last drink from the customer order array.
+ - **Reset Drink** button removes all drinks from the customer order.
  
