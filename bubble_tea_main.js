@@ -53,7 +53,7 @@ function calculateSingleCost(singleDrink){
 	return cost;
 }
 
-function BubbleTeaDrink(teaSelect, mTeaSelect, myToppingsSelect){
+function bubbleTeaDrink(teaSelect, mTeaSelect, myToppingsSelect){
 	this.teaSelect = teaSelect.slice();
 	this.mTeaSelect = mTeaSelect.slice();
 	this.myToppingsSelect = myToppingsSelect.slice();
